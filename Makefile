@@ -4,3 +4,6 @@ export GOPATH = $(PWD)
 
 start:
 	go run *.go
+
+build:
+	go build *.go
